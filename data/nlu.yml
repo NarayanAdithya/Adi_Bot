@@ -1,0 +1,119 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - okay
+    - kk
+    - fine
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who are you?
+    - what are you?
+    - kaun hai tu?
+    - aap kaun ho?
+
+- intent: experience
+  examples: |
+    - what internships have you done?
+    - tell me about your experiences
+    - have you done any industrial internships?
+    - have you worked in any company before?
+    - Which companies have you worked for?
+    - Have you done any paid internships?
+    - I want to know more about the interships you have done.
+
+- intent: more_info_experience
+  examples: |
+    - what is [Slogfy]{"entity":"company","value":"Slogfy"}
+    - what is [The Entrepreneurship Network]{"entity":"company","value":"The Entrepreneurship Network"}
+    - what is [Papersdrop]{"entity":"company","value":"Papersdrop"}
+    - what is [The Sparks Foundation]{"entity":"company","value":"The Sparks Foundation"}
+    - what is [TEN]{"entity":"company","value":"TEN"}
+    - what is [TSF]{"entity":"company","value":"TSF"}
+    - what did you do in [Slogfy]{"entity":"company","value":"Slogfy"}
+    - what roles did you play in [TEN]{"entity":"company","value":"TEN"}

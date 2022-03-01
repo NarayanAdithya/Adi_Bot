@@ -1,0 +1,57 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - experience
+  - more_info_experience
+  
+
+entities:
+  - company
+responses:
+  utter_greet:
+  - text: "Hey! How are you? What can I help you with? You can ask me stuff like 'Where am I from?', 'What projects have I done' etc."
+  - text: "Hola, Go on ask me stuff you would like to know, maybe my projects, or my experiences/internships I have done"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "Arey,Listen I am a bot powered by RASA trained on data to imitate Adithya. Well I am still being trained , so I am not exactly him."
+  - text: "Arey, Yes I am a bot only, but I am a bot that imitates adi to a certain extent."
+  - text: "Arey bhai, I am just a normal bot da"
+
+  utter_experience:
+  - text: "I am not working anywhere as of now but I have interned in small startups within my college like Paperdrop, Kite, Slogfy, TSF, and right now I am enrolled in small program with TEN"
+  - text: "I haven't done any major internships but to name a few startups i have worked in they are, papersdrop, kite, slogfy etc. You can find this info from my linkedin here:"
+    
+  
+  utter_contact:
+  - text: "If you want to know more you should get in touch with Adithya Via LinkedIn, He always responds"
+  - text: "Get in touch with adithya to know more, he never leaves any message unread"
+
+  utter_more:
+  - text: "Do you want to know anything more?"
+
+  utter_more_info_experience:
+  - text: "Hey for more information about internships na it is better you check out my linkedin account"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
