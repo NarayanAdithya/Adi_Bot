@@ -12,8 +12,6 @@ intents:
   - more_info_experience
   
 
-entities:
-  - company
 responses:
   utter_greet:
   - text: "Hey! How are you? What can I help you with? You can ask me stuff like 'Where am I from?', 'What projects have I done' etc."

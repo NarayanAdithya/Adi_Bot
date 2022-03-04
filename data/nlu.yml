@@ -109,11 +109,11 @@ nlu:
 
 - intent: more_info_experience
   examples: |
-    - what is [Slogfy]{"entity":"company","value":"Slogfy"}
-    - what is [The Entrepreneurship Network]{"entity":"company","value":"The Entrepreneurship Network"}
-    - what is [Papersdrop]{"entity":"company","value":"Papersdrop"}
-    - what is [The Sparks Foundation]{"entity":"company","value":"The Sparks Foundation"}
-    - what is [TEN]{"entity":"company","value":"TEN"}
-    - what is [TSF]{"entity":"company","value":"TSF"}
-    - what did you do in [Slogfy]{"entity":"company","value":"Slogfy"}
-    - what roles did you play in [TEN]{"entity":"company","value":"TEN"}
+    - what is Slogfy
+    - what is The Entrepreneurship Network
+    - what is Papersdrop
+    - what is The Sparks Foundation
+    - what is TEN
+    - what is TSF
+    - what did you do in Slogfy
+    - what roles did you play in TEN
