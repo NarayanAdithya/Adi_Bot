@@ -51,4 +51,27 @@ stories:
   - intent: affirm
   - action: utter_more
   - intent: more_info_experience
-  - action: utter_more_info_experience   
+  - action: utter_more_info_experience
+
+- story: projects_enquiry path1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: projects_enquiry
+  - action: utter_projects_enquiry
+  - intent: affirm
+  - action: utter_more
+  - intent: deny
+  - action: utter_goodbye
+
+- story: projects_enquiry path2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: projects_enquiry
+  - action: utter_projects_enquiry
+  - intent: affirm
+  - action: utter_more
+  - intent: more_info_experience
+  - action: utter_more_info_experience
+

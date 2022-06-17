@@ -117,3 +117,9 @@ nlu:
     - what is TSF
     - what did you do in Slogfy
     - what roles did you play in TEN
+
+- intent: projects_enquiry
+    - What projects have you done?
+    - Can you tell me about your projects?
+    - What are your most prominent projects
+    - Tell me about your projects
