@@ -1,0 +1,7 @@
+env/
+rasaenv/
+LICENSE
+.git
+.rasa
+tests
+README.md
